@@ -11,21 +11,10 @@ const questions = [
     message: "What is the title of your project?",
   },
   {
-    type: "checkbox",
+    type: "input",
     name: "description",
     message:
       "Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:?",
-    choices: [
-      "- What was your motivation?",
-      "- Why did you build this project?",
-      "- What problem does it solve?",
-      "- What did you learn?",
-    ],
-  },
-  {
-    type: "input",
-    name: "tableOfContents",
-    message: "What is your name?",
   },
   {
     type: "input",
@@ -36,50 +25,28 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    message: "How can the user run your application?",
   },
   {
     type: "input",
     name: "credits",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    message: "List your collaborators",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    message: "Choose a license",
+    choices: ["Apache", "MIT", "GNU", "No License"],
   },
   {
     type: "input",
-    name: "badges",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    name: "github",
+    message: "Enter Github username",
   },
   {
     type: "input",
-    name: "installation",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
-  },
-  {
-    type: "input",
-    name: "features",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
-  },
-  {
-    type: "input",
-    name: "contribute",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
-  },
-  {
-    type: "input",
-    name: "tests",
-    message:
-      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    name: "email",
+    message: "Enter your email address",
   },
 ];
 
