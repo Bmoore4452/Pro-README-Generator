@@ -40,7 +40,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [Questions](#email)
+* [Questions](#github)
 
 
 ## Installation
@@ -54,7 +54,7 @@ ${data.credits}
 
 ## Questions
 Here is a link to my Github account:
-[Github](github.com/${data.github})
+[${data.github}](https://github.com/${data.github})
 
 Please feel free to contact me at ${
     data.email
