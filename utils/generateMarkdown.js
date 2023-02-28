@@ -40,7 +40,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [Questions](#github)
+* [Questions](#questions)
 
 
 ## Installation

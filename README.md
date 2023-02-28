@@ -1,25 +1,25 @@
-# nuytneydmnd
+# Moore-Money-E-Commerce-Backend
 ![MIT](https://img.shields.io/badge/LICENSE-MIT-blue.svg)
 
 ## Description
-jdmjydyfhkf
+This is a project that creates the back end for for an e-Commerce website. It performs all aspects of the CRUD process.
 
 ## Table of Contents 
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [Questions](#github)
+* [Questions](#questions)
 
 
 ## Installation
-hjdhjdhyjdfhf
+First, the user must use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data. In addition, the user will need to have the application installed to test the routes [Insominia](https://insomnia.rest/).
 
 ## Usage
-jhfjfhjkfhjdf
+The user will first need use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name. Then the user will need to run `npm run seed` to seed data to your database so that you can test your routes. After seeding the data, the user can run this list of test to test the API routes:
 
 ## Credits
-djhddfdf
+N/A
 
 ## Questions
 Here is a link to my Github account:
